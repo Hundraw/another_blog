@@ -1,0 +1,17 @@
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  background: unset;
+
+  outline: unset;
+  border: unset;
+
+  color: black;
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 1rem;
+
+  list-style: none;
+}

@@ -1,0 +1,52 @@
+@import "../variables";
+
+.LoginCard {
+  width: 350px;
+  padding: 2em;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 15px;
+
+  background-color: white;
+  border-radius: 5px;
+
+  box-shadow: 0 10px 15px hsla(0, 0, 0, 0.1);
+
+  input {
+    padding: .8em;
+    border: 1px solid lightgray;
+    border-radius: .2em;
+  }
+
+  .button.submit {
+    padding: .5em;
+    background-color: $primary;
+
+    border-radius: .3em;
+
+    color: white;
+  }
+
+  .button.action {
+    padding: .4em;
+    background-color: $accent;
+
+    border-radius: .3em;
+  }
+
+  & > h2 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  & > * {
+    width: 100%;
+  }
+}
+
+
+
+
